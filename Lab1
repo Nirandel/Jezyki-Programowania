@@ -33,3 +33,14 @@ printf("%i+", c);
 Uzyj funkcji.
 
 d) Stworz tablice 20elementowa i uzupelnij ja suma(0), suma(1), ... , suma(19)
+
+```
+int suma(intN(
+{
+int i;
+int wynik=0;
+for(i=1;i<=N,i++)
+wynik+=i*i;
+return wynik;
+}
+```
