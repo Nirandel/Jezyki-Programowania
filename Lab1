@@ -1,6 +1,7 @@
 zad1. Program na sume:
 
 ```
+
 #include<stdio.h>
 int main () {
 int n;
@@ -25,7 +26,8 @@ printf("%i+", c);
 	printf("\n");
 		
 		return 0;
-     }
+ 	}
+    
 ```
 
 Uzyj funkcji.
