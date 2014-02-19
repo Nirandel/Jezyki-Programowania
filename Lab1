@@ -1,0 +1,33 @@
+zad1. Program na sume:
+
+```
+#include<stdio.h>
+int main () {
+int n;
+printf("Podaj N \n");
+scanf("%i",&n);
+int i;
+int c;
+int x=0;
+
+for(i=1;i<=n;i++){
+	c=i*i;
+	x=x+c;
+	}
+	
+printf("N wynosi: %i \n", x);
+printf("%i=", x);
+for(i=1;i<n;i++){
+	c=i*i;
+printf("%i+", c);
+	x=x+c;
+	}
+	printf("\n");
+		
+		return 0;
+     }
+```
+
+Uzyj funkcji.
+
+d) Stworz tablice 20elementowa i uzupelnij ja suma(0), suma(1), ... , suma(19)
