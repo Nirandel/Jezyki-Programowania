@@ -1,0 +1,69 @@
+zad1. 
+
+#include <stdio.h>
+#include <limits.h>
+#include <float.h>
+
+int main () {
+
+//printf("Podaj N \n");
+//scanf("%i",&nint);
+
+short nsh;   //short
+
+nsh=SHRT_MIN;
+printf("SHRT_MIN = %i   " , nsh);
+nsh=SHRT_MAX;
+printf("SHRT_MAX = %i   ", nsh);
+printf("sizeof = %i   \n", sizeof(short));
+
+
+int nint;  //int
+
+nint=INT_MIN;
+printf("INT_MIN = %i   " , nint);
+nint=INT_MAX;
+printf("INT_MAX = %i   ", nint);
+printf("sizeof = %i   \n", sizeof(int));
+
+long nl;  //long
+
+nl=LONG_MIN;
+printf("LONG_MIN = %li   " , nl);
+nl=LONG_MAX;
+printf("LONG_MAX = %li   " , nl);
+printf("sizeof = %i   \n" , sizeof(long));
+
+long long nll;  //long long
+
+nll=LLONG_MIN;
+printf("LLONG_MIN = %lli   " , nll);
+nll=LLONG_MAX;
+printf("LLONG_MAX = %lli   " , nll);
+printf("sizeof = %i   \n" , sizeof(long long));
+
+float nflf;  //float (uzywam %f)
+
+nflf=FLT_MIN;
+printf("FLT_MIN = %0.126f   " , nflf);  // 126 liczb po przecinku
+nflf=FLT_MAX;
+printf("FLT_MAX = %f   ", nflf);
+printf("sizeof = %i   \n", sizeof(float));
+
+float nfle;  //float (uzywam %e)
+
+nfle=FLT_MIN;
+printf("FLT_MIN = %e   " , nfle);
+nfle=FLT_MAX;
+printf("FLT_MAX = %e   ", nfle);
+printf("sizeof = %i   \n", sizeof(float));
+
+double ndou;  //double (uzywam %f)
+
+ndou=DBL_MIN;
+printf("DBL_MIN = %f   " , ndou);
+ndou=DBL_MAX;
+printf("DBL_MAX = %f   ", ndou);
+printf("sizeof = %i   \n", sizeof(double));
+
+return 0; }
